@@ -26,8 +26,8 @@ u0 = x .* (L .- x)  # Initial displacement (parabolic shape)
 v0 = zeros(Nx)      # Initial velocity (zero)
 prob = ODEProblem(wave_eq!, [u0; v0], tspan)
 
-# Solve the ODE
-sol = solve(prob, Tsit5(), saveat=0.1)
+# Solve the ODE (CORRECTED - explicitly use DifferentialEquations.solve)
+sol = DifferentialEquations.solve(prob, Tsit5(), saveat=0.1)
 
 # Plot at different times
 plot(x, sol[1:Nx, 1], label="t=0.0s", linewidth=2)
