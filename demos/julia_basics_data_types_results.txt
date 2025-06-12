@@ -1,0 +1,13 @@
+Data Types Demo Results
+int_val: 42 (Int64)
+float_val: 3.14 (Float64)
+string_val: Julia (String)
+bool_val: true (Bool)
+char_val: A (Char)
+array_val: [1, 2, 3] (Vector{Int64})
+tuple_val: (1, "hello", 3.14) (Tuple{Int64, String, Float64})
+dict_val: Dict{String, Any}("key" => "value", "number" => 42) (Dict{String, Any})
+complex_val: 1 + 2im (Complex{Int64})
+rational_val: 3//4 (Rational{Int64})
+str_to_int: 123
+int_to_float: 42.0

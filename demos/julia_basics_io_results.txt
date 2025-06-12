@@ -1,0 +1,4 @@
+Julia Basics I/O Demo Results
+Language: Julia v1.9
+Pi value: 3.1416
+File operations: Successful

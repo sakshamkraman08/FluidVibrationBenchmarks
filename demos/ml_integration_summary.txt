@@ -1,0 +1,22 @@
+Machine Learning Integration Tutorial Summary
+============================================
+Date: 2025-06-12T10:15:24.667
+
+Demonstration: Neural Network Regression
+Framework: Flux.jl with modern API
+Problem: Multi-feature regression with interaction terms
+Architecture: 2 → 32 → 16 → 1 (fully connected)
+Final Performance:
+- Test R²: 0.9962
+- Test MSE: 0.057054
+
+Key Features Demonstrated:
+✓ Data generation and preprocessing
+✓ Neural network architecture design
+✓ Modern Flux.jl training API
+✓ Performance evaluation metrics
+✓ Visualization of results
+✓ Data export for further analysis
+✓ Model complexity analysis
+
+All outputs saved to demos/ folder for report inclusion

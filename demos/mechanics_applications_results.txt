@@ -1,0 +1,13 @@
+Mechanics Applications Results
+==============================
+Harmonic Oscillator:
+  Position: x(t) = A_coeff*cos(omega*t) + B_coeff*sin(omega*t)
+  Velocity: v(t) = -A_coeff*omega*sin(omega*t) + B_coeff*omega*cos(omega*t)
+  Acceleration: a(t) = -A_coeff*(omega^2)*cos(omega*t) - B_coeff*(omega^2)*sin(omega*t)
+  Equation of motion ma + kx = (A_coeff*cos(omega*t) + B_coeff*sin(omega*t))*k + (-A_coeff*(omega^2)*cos(omega*t) - B_coeff*(omega^2)*sin(omega*t))*m
+Beam Natural Frequency:
+  Angular frequency: ω = ((π / L)^2)*sqrt((E*I) / (A*rho))
+  Frequency in Hz: f = 0.15915494309189535((π / L)^2)*sqrt((E*I) / (A*rho))
+Wave Equation:
+  Solution: u(x,t) = A_coeff*sin(k_wave*x - omega*t)
+  ∂²u/∂t² - c²∂²u/∂x² = -A_coeff*(omega^2)*sin(k_wave*x - omega*t) + A_coeff*(c_wave^2)*(k_wave^2)*sin(k_wave*x - omega*t)

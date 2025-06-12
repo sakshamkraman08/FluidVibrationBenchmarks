@@ -1,0 +1,13 @@
+DataFrames.jl Demo Results
+=========================
+Dataset size: 100 rows × 6 columns
+Mean age: 40.8 years
+Mean score: 75.1
+Mean salary: $55626.0
+High performers (score > 80): 41 people
+Departments analyzed: 4
+
+Generated files:
+- dataframes_main_dataset.csv
+- dataframes_department_stats.csv
+- dataframes_high_performers.csv

@@ -1,0 +1,10 @@
+Calculus Operations Results
+===========================
+Function: f(x) = 1 + x + 2(x^2) + x^3
+First derivative: f'(x) = 1 + 4x + 3(x^2)
+Second derivative: f''(x) = 4 + 6x
+Multivariable function: f(x,y) = sin(x*y) + (x^2)*y
+Partial derivative ∂f/∂x = 2x*y + y*cos(x*y)
+Partial derivative ∂f/∂y = x^2 + x*cos(x*y)
+Chain rule: g = sin(x² + 1)
+dg/dx = 2x*cos(1 + x^2)

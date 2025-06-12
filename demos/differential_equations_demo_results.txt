@@ -1,0 +1,10 @@
+DifferentialEquations.jl Demo Results
+====================================
+ODE: dy/dt = -y, y(0) = 1
+Analytical solution: y(t) = e^(-t)
+Solver: Tsit5()
+Time span: (0.0, 3.0)
+t=0.5: numerical=0.60653, analytical=0.606531, error=4.3e-7
+t=1.0: numerical=0.36788, analytical=0.367879, error=2.0e-7
+t=1.5: numerical=0.22313, analytical=0.22313, error=2.9e-7
+t=2.0: numerical=0.135336, analytical=0.135335, error=5.3e-7

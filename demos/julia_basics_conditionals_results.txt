@@ -1,0 +1,10 @@
+Conditionals Demo Results
+classify_number(-1) = negative
+abs_value(-1) = 1
+classify_number(0) = zero
+abs_value(0) = 0
+classify_number(1) = positive
+abs_value(1) = 1
+Score 95 gets grade: A
+Score 75 gets grade: C
+Score 55 gets grade: F

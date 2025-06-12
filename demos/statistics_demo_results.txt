@@ -1,0 +1,18 @@
+Statistics.jl Demo Results
+=========================
+Normal distribution (n=1000):
+  Mean: -0.0601
+  Median: -0.0443
+  Standard deviation: 0.9872
+  Variance: 0.9746
+  Minimum: -2.8508
+  Maximum: 3.0923
+Uniform distribution (n=1000):
+  Mean: 51.4412
+  Median: 51.5055
+  Standard deviation: 28.497
+  Variance: 812.0806
+  Minimum: 0.0925
+  Maximum: 99.9904
+Correlation: -0.0383
+Quantiles: [-0.7522, -0.0443, 0.6289]

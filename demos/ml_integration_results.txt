@@ -1,0 +1,32 @@
+Machine Learning Integration Demo Results
+========================================
+Date: 2025-06-12T10:15:24.611
+
+Dataset: 1000 samples with 2 features
+Train/Test split: 800/200
+Model architecture: 2 → 32 → 16 → 1 (ReLU activation)
+    Epoch 20: Loss = 1.407743
+    Epoch 40: Loss = 0.369287
+    Epoch 60: Loss = 0.135696
+    Epoch 80: Loss = 0.08085
+    Epoch 100: Loss = 0.061235
+Training MSE: 0.06048
+Test MSE: 0.057054
+Training R²: 0.9957
+Test R²: 0.9962
+Training MAE: 0.1654
+Test MAE: 0.1669
+
+Model Details:
+- Framework: Flux.jl
+- Optimizer: Adam (learning rate: 0.01)
+- Loss function: Mean Squared Error
+- Activation: ReLU (hidden layers)
+- Training epochs: 100
+
+Generated Files:
+- ml_training_curve.png (training progress)
+- ml_predictions_vs_actual.png (model accuracy)
+- ml_residuals_plot.png (error analysis)
+- ml_training_data.csv (training dataset with predictions)
+- ml_test_data.csv (test dataset with predictions)

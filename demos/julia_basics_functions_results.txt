@@ -1,0 +1,5 @@
+Functions Demo Results
+Hello, World!
+square(5) = 25
+factorial(5) = 120
+cube(3) = 27

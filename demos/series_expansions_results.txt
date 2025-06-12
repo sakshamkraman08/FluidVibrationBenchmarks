@@ -1,0 +1,13 @@
+Series Expansions Results
+=========================
+Taylor series: sin(x) ≈ x - x³/6 + x⁵/120 - x⁷/5040 + ...
+Taylor series: cos(x) ≈ 1 - x²/2 + x⁴/24 - x⁶/720 + ...
+Taylor series: exp(x) ≈ 1 + x + x²/2 + x³/6 + x⁴/24 + ...
+Taylor series: ln(1+x) ≈ x - x²/2 + x³/3 - x⁴/4 + ...
+Small angle: sin(ε) ≈ ε
+Small angle: cos(ε) ≈ 1 - ε²/2
+Small angle: tan(ε) ≈ ε + ε³/3
+Finite difference: Forward: (f(x+h) - f(x))/h
+Finite difference: Backward: (f(x) - f(x-h))/h
+Finite difference: Central: (f(x+h) - f(x-h))/(2h)
+Finite difference: Second derivative: (f(x+h) - 2f(x) + f(x-h))/h²

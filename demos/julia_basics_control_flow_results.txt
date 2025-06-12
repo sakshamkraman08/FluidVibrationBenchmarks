@@ -1,0 +1,4 @@
+Control Flow Demo Results
+For loop 1 to 5: 1 2 3 4 5 
+While loop countdown: 5 4 3 2 1 
+Pairs summing to 7: (2, 5), (3, 4), (4, 3), (5, 2)

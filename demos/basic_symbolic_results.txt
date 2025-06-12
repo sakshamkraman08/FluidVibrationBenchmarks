@@ -1,0 +1,9 @@
+Basic Symbolic Operations Results
+=================================
+expr1 = 1 + 2x + x^2
+expr2 = (1 + x)^2
+expr3 = exp(z) + cos(y)*sin(x)
+Simplified expr1 - expr2: 1 + 2x + x^2 - ((1 + x)^2)
+Are expr1 and expr2 equivalent? true
+Expanded (x + y + z)^3: x^3 + 3(x^2)*y + 3(x^2)*z + 3x*(y^2) + 6x*y*z + 3x*(z^2) + y^3 + 3(y^2)*z + 3y*(z^2) + z^3
+Substituting x=2 in expr1: 9

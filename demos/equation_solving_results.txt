@@ -1,0 +1,10 @@
+Equation Solving Results
+========================
+Linear equation: 2x + 3 = 7 → x = 2
+Quadratic formula: ax² + bx + c = 0 → x = (-b ± √(b² - 4ac))/(2a)
+System of equations: 2x + 3y = 7, x - y = 1 → x = 2, y = 1
+Trigonometric: sin(x) = 0 → x = nπ
+Trigonometric: cos(x) = 0 → x = π/2 + nπ
+Trigonometric: tan(x) = 1 → x = π/4 + nπ
+Differential: dy/dt = -ky → y(t) = y₀e^(-kt)
+Differential: d²y/dt² + ω²y = 0 → y(t) = A cos(ωt) + B sin(ωt)
